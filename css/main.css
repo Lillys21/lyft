@@ -4,7 +4,6 @@
 body{
   margin: 0;
   font-family: Arial;
-  background-color: #170B3B;
 }
 *{
   margin: 0;
@@ -13,25 +12,55 @@ body{
 /*------------------------------*/
 /*        ESTILOS MAIN-NAV      */
 /*------------------------------*/
+.contenedor_general{
+  background-image: url("../assets/images/hero.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1000px;
+}
 .navegacion{
 }
 .main-nav .logo img{
+  position: absolute;
   height: 5%;
   width: 5%;
-  float: left;
+  left: 5%;
+  top: 5%;
 }
 .main-nav .menu{
-  float: left;
-  position: relative;
+  position: absolute;
   display: inline-block;
+  right: 5%;
+  top: 5%;
 }
-
+.main-nav .menu a{
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.form{
+  outline: 1px solid black;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  height: 400px;
+  top: 20%;
+  text-align: center;
+  width: 600px;
+}
+.title{
+  color: #380B61;
+  font-size: 25px;
+}
+.title p{
+  font-size: 15px;
+  font-weight: bold;
+}
 /*------------------------------*/
 /*        ESTILOS HEROE         */
 /*------------------------------*/
 .hero-image{
   text-align: center;
-  background-image: url("assets/images/hero.gif");
   background-position: 50% 0;
   height: 50%;
   padding: 250px 0 0 0;
